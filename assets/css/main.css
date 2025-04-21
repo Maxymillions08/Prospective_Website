@@ -4231,5 +4231,35 @@
 			.grid-style > :nth-child(1n) {
 				width: calc(100% + 2rem);
 			}
+			.product {
+				border: 1px solid #ddd;
+				padding: 1em;
+				margin: 1em;
+				border-radius: 10px;
+				text-align: center;
+				transition: box-shadow 0.3s ease;
+				background-color: #fff;
+			}
+				
+			.product:hover {
+				box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			}
+				
+			.product img {
+				max-width: 100%;
+				height: auto;
+				border-radius: 5px;
+			}
+				
+			.product .button {
+				display: inline-block;
+				background-color: #0077cc;
+				color: white;
+				padding: 10px 15px;
+				text-decoration: none;
+				border-radius: 5px;
+				margin-top: 10px;
+			}
+
 
 		}
